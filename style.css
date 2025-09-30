@@ -97,14 +97,14 @@ a{
 #titulosobre {
     margin-bottom: 100px;
     font-family: "Open Sans", sans-serif;
-}
+} /* cria uma margem para o titulo sobre e muda a fonte do texto */
 
 #textosobre {
     color: white;
     display: inline-block;
     width: 600px;
     margin-left: 300px;
-}
+} /*  */
 
 #paragrafosobre {
     font-family: 'Times New Roman', serif;
