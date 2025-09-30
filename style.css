@@ -2,12 +2,18 @@
 @import url('https://fonts.cdnfonts.com/css/times-new-roman');
 
 * {
-    margin: 0%;
+    margin: 0%; /* Seleciona a página inteira e tira a margem dela */
 }
 
 body {
     background-color: black;
-}
+    border-style: solid;
+    border-color: #ff5e08; 
+} /* adiciona uma cor de fundo e uma borda para a página */
+
+a{
+    text-decoration: none;
+} /* tira a cor de hiperlink e o sublinhado da ancora */
 
 .nav {
     font-family: "Open Sans", sans-serif;
@@ -20,85 +26,266 @@ body {
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px;
-}
+} /* Barra de navegação,da uma cor de fundo para a barra, alinha os conteudos,e muda a fnte dos textos na barras. */
 
 #nome {
-    margin-right: 450px;
+    margin-right: 420px;
     margin-left: 30px;
     background-color: black;
     color: white;
-    padding: 5px;
-    border-radius: 15px;
+    padding: 10px;
+    border-radius: 30px;
     text-align: center;
     display: inline-block;
-}
+}  /* ajusta separadamente o conteudo nome na barra de navegação, adicionando um background e ajustando ele. */
+
+#nav-sobre {
+    margin-right: 90px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+} /* ajusta separadamente o conteudo sobre na barra de navegação, adicionando um background e ajustando ele. */
+
+
+#nav-habilidades {
+    margin-right: 90px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+} /* ajusta separadamente o conteudo habilidades na barra de navegação, adicionando um background e ajustando ele. */
+
+
+#nav-projetos {
+    margin-right: 90px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+} /* ajusta separadamente o conteudo projetos na barra de navegação, adicionando um background e ajustando ele. */
+
+
+#nav-contatos {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+} /* ajusta separadamente o conteudo contatos na barra de navegação, adicionando um background e ajustando ele. */
+
 
 #sobre {
-    margin-right: 90px;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    border-radius: 15px;
-    text-align: center;
-    display: inline-block;
-}
-
-#habilidades {
-    margin-right: 90px;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    border-radius: 15px;
-    text-align: center;
-    display: inline-block;
-}
-
-#projetos {
-    margin-right: 90px;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    border-radius: 15px;
-    text-align: center;
-    display: inline-block;
-}
-
-#contatos {
-    background-color: black;
-    color: white;
-    padding: 5px;
-    border-radius: 15px;
-    text-align: center;
-    display: inline-block;
-}
-
-.section-sobre {
     margin-top: 50px;
-    margin-bottom: 90px;
+    margin-bottom: 200px;
     display: inline-block;
-}
+} /* mexe na sessão inteira de conteudos sobre, ajustando uma margem e alinhando os conteudos */
 
-#articlesobre {
+#fotosobre {
     margin-left: 80px;
     margin-right: 20px;
     display: inline-block;
-}
+} /* alinha e cria uma margem para a foto de perfil no site */
 
 #titulosobre {
     margin-bottom: 100px;
+    font-family: "Open Sans", sans-serif;
 }
 
-#articlesobre2 {
+#textosobre {
     color: white;
     display: inline-block;
     width: 600px;
     margin-left: 300px;
 }
 
-#p1 {
-    font-family: 'Times New Roman', sans-serif;
+#paragrafosobre {
+    font-family: 'Times New Roman', serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 200px;
+    font-size: 20px;
     font-style: normal;
     font-variation-settings:"width" 100;
+    
 }
+
+#habilidades{
+    color: white;
+    margin-bottom: 125px;
+}
+
+#titulo-habilidade{
+    font-family: "Open Sans", sans-serif;
+    background-color: #ff5e08;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 550px;
+    margin-bottom: 180px;
+    padding: 10px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+#habilidadescima{
+    margin-bottom: 50px;
+}
+
+#imghtml{
+    background-color: #ff5e08;
+    border-radius: 20px;
+    padding: 15px;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+
+#imgcss{
+    background-color: #ff5e08;
+    border-radius: 20px;
+    padding: 15px;
+    margin-right: 100px;
+}
+
+#imgjs{
+    background-color: #ff5e08;
+    border-radius: 20px;
+    padding: 15px;
+    margin-right: 100px;
+}
+
+#imggit{
+    background-color: #ff5e08;
+    border-radius: 20px;
+    padding: 15px;
+    margin-right: 100px;
+}
+
+#imggithub{
+    background-color: #ff5e08;
+    border-radius: 20px;
+    padding: 15px;
+    padding-top: 48px;
+    margin-right: 100px;
+    
+}
+
+#imghardware{
+    background-color: #ff5e08;
+    border-radius: 20px;
+    padding: 15px;
+    margin-right: 100px;
+    margin-left: 250px;
+}
+
+#imgsoftware{
+    background-color: #ff5e08;
+    border-radius: 20px;
+    padding: 15px;
+    margin-right: 100px;
+}
+
+#imgredes{
+    background-color: #ff5e08;
+    border-radius: 20px;
+    padding: 15px;
+    margin-right: 100px;
+}
+
+#imgcloud{
+    background-color: #ff5e08;
+    border-radius: 20px;
+    padding: 15px;
+    margin-right: 100px;
+}
+
+#projeto{
+    color: white;
+    display: inline-block;
+}
+
+#titulo-projeto{
+    font-family: "Open Sans", sans-serif;
+    background-color: #ff5e08;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 320px;
+    margin-bottom: 180px;
+    padding: 10px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.imagens-projetos{
+    display: inline-block;
+    margin-bottom: 200px;
+}
+
+#projeto-zara{
+    margin-left: 220px;
+    margin-right: 100px;
+}
+
+#titulo-contatos{
+    font-family: "Open Sans", sans-serif;
+    background-color: #ff5e08;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 580px;
+    margin-bottom: 180px;
+    margin-top: 180px;
+    padding: 10px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+#img-contato-github{
+    background-color: #ff5e08;
+    border-radius: 20px;
+    padding: 15px;
+    padding-bottom: 38px;
+    padding-top: 48px;
+    margin-right: 100px;
+    margin-left: 212px;
+}
+
+#img-contato-outlook{
+    background-color: #ff5e08;
+    border-radius: 20px;
+    padding: 38px;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+
+#img-contato-linkedin{
+    background-color: #ff5e08;
+    border-radius: 20px;
+    padding: 20px;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+
+.footer{
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+    font-size: 25px;
+    font-variation-settings: "wdth" 100;
+    background-color: #ff5e08;
+    color: white;
+    width: 100%;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+

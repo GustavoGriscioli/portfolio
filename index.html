@@ -4,27 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gustavo Marcelo G. de Oliveira</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- Conecta o arquivo CSS com o arquivo HTML -->
 </head>
 <body>
-    <header class="header">
+    <header class="header"> <!-- Barra de navegação -->
         <nav class="nav">
             <h2 id="nome">Gustavo Marcelo</h2>
-            <a href="section-sobre" id="sobre">SOBRE</a>
-            <a href="section-habilidades" id="habilidades">HABILIDADES</a>
-            <a href="section" id="projetos">PROJETOS</a>
-            <a href="" id="contatos">CONTATOS</a>
+            <a href="#sobre" id="nav-sobre">SOBRE</a>
+            <a href="#habilidades" id="nav-habilidades">HABILIDADES</a>
+            <a href="#projetos" id="nav-projetos">PROJETOS</a>
+            <a href="#contatos" id="nav-contatos">CONTATOS</a>
         </nav>
     </header>
 
     <main>
-        <section class="section-sobre">
-            <article id="articlesobre">
-                <img src="img/Foto_de_perfil.jpeg" alt="Foto de perfil Gustavo" width="300px">
+        <section id="sobre"> <!-- Sessão sobre mim -->
+            <article id="fotosobre">
+                <img src="img/Foto_de_perfil.jpeg" alt="Foto de perfil Gustavo" width="250px">
             </article>
-            <article id="articlesobre2">
+            <article id="textosobre">
                 <h1 id="titulosobre">Sobre</h1> <br>
-                <p id="p1">Olá! Sou Gustavo Marcelo Griscioli de Oliveira. Estudante
+                <p id="paragrafosobre">Olá! Sou Gustavo Marcelo Griscioli de Oliveira. Estudante
                     do ensino médio na escola Capitão Pedro Monteiro do
                     Amaral, aluno do IOS (Instituto Da Oportunidade Social)
                     formado em Suporte em TI, Cloud - Computação em
@@ -34,17 +34,53 @@
                     programação e computação em nuvem.</p>
             </article>
         </section>
-        <section class="section-habilidades">
-            <article id="article-hab">
+
+        <section id="habilidades"> <!-- Sessão com as minhas habilidades -->
+            <article id="titulo-habilidade">
                 <h1>HABILIDADES</h1>
             </article>
-            <article id="article-hab2">
-                
+            <article id="habilidadescima">
+                <img src="img/HTML-removebg-preview.png" alt="logo html" width="100px" id="imghtml">
+                <img src="img/CSS.png" alt="logo css" width="75px" id="imgcss">
+                <img src="img/JS-removebg-preview.png" alt="logo javascript" width="90px" id="imgjs">
+                <img src="img/Git-Icon-Black.png" alt="logo git" width="100px" id="imggit">
+                <img src="img/GitHub-logo.png" alt="logo github" width="120px" id="imggithub">
             </article>
-            <article id="article-hab3">
-
+            <article id="habilidadesbaixo">
+                <img src="img/Hardware.png" alt="logo para hardwares" width="100px" id="imghardware">
+                <img src="img/Software-removebg-preview.png" alt="logo para softwares" width="100px" id="imgsoftware">
+                <img src="img/Redes.png" alt="logo para redes" width="100px" id="imgredes">
+                <img src="img/Cloud.webp" alt="logo para cloud" width="100px" id="imgcloud">
             </article>
         </section>
+
+        <section id="projetos"> <!-- Sessão com meus projetos -->
+            <article id="titulo-projeto">
+                <h1>Meus Projetos (Finalizados/Em Andamento)</h1>
+            </article>
+
+            <article id="imagens-projetos">
+                <a href="https://github.com/GustavoGriscioli/Trabalho---T2" id="projeto-zara"><img src="img/site-zara.png" alt="projeto site zara primeiro trabalho" width="400px"></a>
+                <a href="https://github.com/GustavoGriscioli/Trabalho---Grupo_Gustavo" id="projeto-fran"><img src="img/site-Fran.png" alt="projeto site fran segundo trabalho" width="400px"></a>
+            </article>
+        </section>
+
+        <section id="contatos"> <!-- Sessão com meus contatos -->
+            <article id="titulo-contatos">
+                <h1>CONTATOS</h1>
+            </article>
+            <article class="imagens-contatos">
+                <a href="https://github.com/GustavoGriscioli"><img src="img/GitHub-logo.png" alt="logo github" width="100px" id="img-contato-github"></a>
+                <a href="mailto:GustavoMarceloG.Oliveira@outlook.com"><img src="img/outlook.png" alt="logo outlook" width="70px" id="img-contato-outlook"></a>
+                <a href="https://www.linkedin.com/in/gustavogriscioli/"><img src="img/linkedin logo.webp" alt="logo linkedin" width="100px" id="img-contato-linkedin"></a>
+            </article>
+        </section>
+
     </main>
+
+    <footer class="footer"> <!-- Rodapé -->
+        <p>2025 &copy; Portfólio - Gustavo Marcelo G. de Oliveira - Todos os direitos
+            reservados</p>
+    </footer>
 </body>
 </html>
