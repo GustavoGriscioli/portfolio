@@ -84,7 +84,7 @@ a{
 
 #sobre {
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     display: inline-block;
 } /* mexe na sessão inteira de conteudos sobre, ajustando uma margem e alinhando os conteudos */
 
@@ -99,7 +99,7 @@ a{
 } /* alinha e cria uma margem e um background para a foto de perfil */
 
 #titulosobre {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     font-family: "Open Sans", sans-serif;
 } /* cria uma margem para o titulo sobre e muda a fonte do texto */
 
