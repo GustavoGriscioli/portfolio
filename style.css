@@ -15,12 +15,12 @@ a{
     text-decoration: none;
 } /* tira a cor de hiperlink e o sublinhado da ancora */
 
-.nav {
+.barra-de-navegacao {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
+    font-variation-settings: "width" 100;
     background-color: #ff5e08;
     width: 100%;
     display: inline-block;
@@ -92,7 +92,11 @@ a{
     margin-left: 80px;
     margin-right: 20px;
     display: inline-block;
-} /* alinha e cria uma margem para a foto de perfil no site */
+    background-color: #ff5e08;
+    padding: 8px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+} /* alinha e cria uma margem e um background para a foto de perfil */
 
 #titulosobre {
     margin-bottom: 100px;
@@ -104,7 +108,11 @@ a{
     display: inline-block;
     width: 600px;
     margin-left: 300px;
-} /*  */
+    border-style: solid;
+    border-color: #ff5e08;
+    border-radius: 10px;
+    padding: 20px;
+} /* Alinha a sessão sobre e cria uma margem e tamanho para o texto e foto se alinharem; cria uma borda para o texto */
 
 #paragrafosobre {
     font-family: 'Times New Roman', serif;
@@ -114,12 +122,12 @@ a{
     font-style: normal;
     font-variation-settings:"width" 100;
     
-}
+} /* muda a fonte do paragrafo sobre*/
 
 #habilidades{
     color: white;
     margin-bottom: 125px;
-}
+} /* ajusta a cor dos textos e cria uma margem para a sessão */
 
 #titulo-habilidade{
     font-family: "Open Sans", sans-serif;
@@ -131,11 +139,11 @@ a{
     padding: 10px;
     border-radius: 15px;
     display: inline-block;
-}
+} /* ajusta a fonte do titulo, cria uma margiem e um background */
 
 #habilidadescima{
     margin-bottom: 50px;
-}
+} /* cria uma margem para as imagens */
 
 #imghtml{
     background-color: #ff5e08;
@@ -143,28 +151,28 @@ a{
     padding: 15px;
     margin-right: 100px;
     margin-left: 150px;
-}
+} /* cria uma margem entre as imagens, cria e ajusta o tamanho do background da imagem */
 
 #imgcss{
     background-color: #ff5e08;
     border-radius: 20px;
     padding: 15px;
     margin-right: 100px;
-}
+}  /* cria uma margem entre as imagens, cria e ajusta o tamanho do background da imagem */
 
 #imgjs{
     background-color: #ff5e08;
     border-radius: 20px;
     padding: 15px;
     margin-right: 100px;
-}
+}  /* cria uma margem entre as imagens, cria e ajusta o tamanho do background da imagem */
 
 #imggit{
     background-color: #ff5e08;
     border-radius: 20px;
     padding: 15px;
     margin-right: 100px;
-}
+}  /* cria uma margem entre as imagens, cria e ajusta o tamanho do background da imagem */
 
 #imggithub{
     background-color: #ff5e08;
@@ -173,7 +181,7 @@ a{
     padding-top: 48px;
     margin-right: 100px;
     
-}
+}  /* cria uma margem entre as imagens, cria e ajusta o tamanho do background da imagem */
 
 #imghardware{
     background-color: #ff5e08;
@@ -181,33 +189,33 @@ a{
     padding: 15px;
     margin-right: 100px;
     margin-left: 250px;
-}
+}  /* cria uma margem entre as imagens, cria e ajusta o tamanho do background da imagem */
 
 #imgsoftware{
     background-color: #ff5e08;
     border-radius: 20px;
     padding: 15px;
     margin-right: 100px;
-}
+}  /* cria uma margem entre as imagens, cria e ajusta o tamanho do background da imagem */
 
 #imgredes{
     background-color: #ff5e08;
     border-radius: 20px;
     padding: 15px;
     margin-right: 100px;
-}
+}  /* cria uma margem entre as imagens, cria e ajusta o tamanho do background da imagem */
 
 #imgcloud{
     background-color: #ff5e08;
     border-radius: 20px;
     padding: 15px;
     margin-right: 100px;
-}
+}  /* cria uma margem entre as imagens, cria e ajusta o tamanho do background da imagem */
 
 #projeto{
     color: white;
     display: inline-block;
-}
+} /* ajusta a cor dos textos da sessão e alinha os conteudos */
 
 #titulo-projeto{
     font-family: "Open Sans", sans-serif;
@@ -220,17 +228,17 @@ a{
     padding: 10px;
     border-radius: 15px;
     display: inline-block;
-}
+}  /* ajusta a fonte do titulo, cria uma margem e um background */
 
 .imagens-projetos{
     display: inline-block;
     margin-bottom: 200px;
-}
+} /* alinha as imagens e cria uma margem entre elas */
 
 #projeto-zara{
     margin-left: 220px;
     margin-right: 100px;
-}
+} /* ajusta a margem entre as imagens */
 
 #titulo-contatos{
     font-family: "Open Sans", sans-serif;
@@ -244,7 +252,8 @@ a{
     padding: 10px;
     border-radius: 15px;
     display: inline-block;
-}
+} /* ajusta a fonte do titulo, cria uma margem e um background */
+
 
 #img-contato-github{
     background-color: #ff5e08;
@@ -254,7 +263,7 @@ a{
     padding-top: 48px;
     margin-right: 100px;
     margin-left: 212px;
-}
+} /* cria um background para a imagem, ajusta o tamanho do background e cria uma margem para o distanciar dos outros conteudos */
 
 #img-contato-outlook{
     background-color: #ff5e08;
@@ -262,7 +271,7 @@ a{
     padding: 38px;
     margin-right: 100px;
     margin-left: 150px;
-}
+}  /* cria um background para a imagem, ajusta o tamanho do background e cria uma margem para o distanciar dos outros conteudos */
 
 #img-contato-linkedin{
     background-color: #ff5e08;
@@ -270,9 +279,9 @@ a{
     padding: 20px;
     margin-right: 100px;
     margin-left: 150px;
-}
+}  /* cria um background para a imagem, ajusta o tamanho do background e cria uma margem para o distanciar dos outros conteudos */
 
-.footer{
+.rodape{
     margin-top: 200px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -287,5 +296,5 @@ a{
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px; 
-}
+} /* Rodapé com uma margem que o distancia dos conteudos acima; ajusta a fonte, tamanho e posição do texto; cria um background e ajusta seu tamanho e cor */
 
